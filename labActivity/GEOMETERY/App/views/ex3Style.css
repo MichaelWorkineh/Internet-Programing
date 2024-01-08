@@ -1,0 +1,56 @@
+p{
+    color: Rgb (70, 70, 70);
+    padding-bottom: 2rem;
+}
+a{
+    color: black;
+}
+.headerTop{
+    display: inline-flex;
+    align-items: center;
+    gap: 69rem;
+}
+
+.goBottom{
+    float: right; 
+    left: 90rem;
+}
+
+main{
+    padding: 5rem;
+    display: inline-flex;
+    padding-left: 11rem;
+}
+
+.list{
+    padding-left: 6rem;
+}
+
+.subtext{
+    display: inline-flex;
+    align-items: center;
+}
+.picture{
+    margin-left: 40px;
+    align-content: left;
+}
+.pic{
+    width: 5rem;
+    padding: 1rem;
+}
+.image{
+    padding: 2rem;
+}
+.sub{
+    display: inline-flex;
+    align-items: center;
+    gap:70rem;
+}
+
+.copy{
+    text-align: center;
+}
+
+.links a:hover{
+    background: rgb(187, 173, 15);
+}

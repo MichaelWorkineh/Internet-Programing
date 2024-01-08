@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <label for="fullName">Full name</label>
+        <input type="text" maxlength="50" size="25"required><br>
+        <label for="Phone"> phone </label>
+        <input type="tel" maxlength="50" size="25"required><br>
+        <label for="age">Age</label><br>
+        <input type="number" min="18" max="120"  maxlength="50" size="25"required><br>
+        <label for="color">Your favorite color</label><br>
+        <input type="color"><br>
+        <label for="Birthdate">Birthdate</label><br>
+        <input type="date"required><br>
+        <label for="Gender"required>Gender</label><br>
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" value="Male">
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" value="Male">
+        <br><br>
+        <label for="password">password</label><br>
+        <input type="password" minlength="6" maxlength="32" required maxlength="50" size="25"><br>
+        <label for="confirmPassword">confirm password</label><br>
+        <input type="password" minlength="6" maxlength="32" required maxlength="50" size="25"><br>
+        <label for="skill"required>skill</label>
+        <ul>
+            <li><input type="checkbox">HTML</li>
+            <li><input type="checkbox">CSS</li>
+            <li><input type="checkbox">JavaScript</li>
+            <li><input type="checkbox">PHP</li>
+        </ul>
+        <label for="country">country</label>
+        <select name="country" size="1"required>
+            <option value="country">Ethiopia</option>
+            <option value="country">Turkey</option>
+        </select>
+        <br>
+        <label for="phote">Photo</label>
+        <input type="file" accept="image/*"required><br>
+        <label for="Descibe">Describe Yourself</label><br>
+        <textarea name="" id="" cols="30" rows="10"required></textarea>
+        <input type="range" min="2" max="40" step="10" value="20">        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
